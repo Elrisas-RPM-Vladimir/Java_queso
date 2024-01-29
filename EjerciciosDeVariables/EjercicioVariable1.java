@@ -28,8 +28,9 @@ public class EjercicioVariable1 {
          */
         System.out.println(x +" + "+ y +" = "+ (x + y));
         System.out.println(x +" - "+ y +" = "+ (x - y));
-        System.out.println(x +" * "+ y +" = "+ (x * y));
         System.out.println(x +" / "+ y +" = "+ (x / y));
-        System.out.println("___________________________");
+        System.out.println(x +" / "+ y +" = "+ ((double) x / y) +" Con decimales");
+        System.out.println(x +" * "+ y +" = "+ (x * y));
     }
 }
+
