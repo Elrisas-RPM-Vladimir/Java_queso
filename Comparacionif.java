@@ -20,9 +20,16 @@ public class Comparacionif {
          if (miFruta == "naranja") {
             System.out.println("Que rica fruta, me la como!!!");
         }else{
-            System.out.println("No puedo comer esa fruta!!!");
+                System.out.println(" No puedo comer esa fruta!!!");
          }
 
          //Programa que indique cual es la capital de Perú
+
+         String capital = "Lima";
+         if (capital == "Lima") {
+            System.out.println("Es correcto, "+ capital +" es capital de Perú!!!");
+         }else{
+                System.out.println("No!!!, "+ capital +" no es capital del Perú!!!");
+         }
     }
 }
