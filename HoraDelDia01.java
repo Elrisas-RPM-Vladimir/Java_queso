@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HoraDelDia {
+public class HoraDelDia01 {
     public static void main(String[] args) {
          /*
          * Programa que muestra el menu de calculo de switch
