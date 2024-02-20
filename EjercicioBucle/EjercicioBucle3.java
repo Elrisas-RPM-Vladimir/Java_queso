@@ -5,7 +5,7 @@ public class EjercicioBucle3 {
         System.out.println("Los múltiplos de 5 en el rango de 0 a 100 son: ");
 
         int i = 0; 
-        do { if (i % 5 ==0) { 
+        do { if (i % 5 == 0) { 
             System.out.println(i);
             }
             i++;
