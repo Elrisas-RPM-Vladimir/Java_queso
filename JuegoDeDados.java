@@ -15,7 +15,7 @@ public class JuegoDeDados {
             suma += dado;
         }
 
-        if (suma > 14) {
+        if (suma >= 10) {
             System.out.println("¡Has ganado, que suerte que pasaras!");
         } else {
             System.out.println("Lo siento, seras condenado a vivir en lima.");
