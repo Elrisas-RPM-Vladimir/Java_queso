@@ -11,6 +11,7 @@ public class ArrayBI06 {
         //1. Declaramos nuestro array bidimencional
         int[][] matriz = new int[10][10];
         int[] diagonal = new int[10];
+        int[] diagonalinversa = new int[10];
         //2. rellenar con numeros aleatorios
         for (int filas = 0; filas < matriz.length; filas++) {
             for (int columnas = 0; columnas < matriz.length; columnas++) {
@@ -19,6 +20,7 @@ public class ArrayBI06 {
                 if (filas == columnas) {
                     diagonal[filas] = matriz[filas][columnas];
                 }
+                
                 System.out.printf("%5d", matriz[filas][columnas]);
             }
             System.out.println();
