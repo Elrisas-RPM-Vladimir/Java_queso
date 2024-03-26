@@ -1,7 +1,7 @@
 public class Seleccionselection {
     public static void main(String[] args) {
              
-        int numeros[] = new int[]{8,2,3,20,5,0,1,9,12,14,13,15,10,19,18,11,16,17};
+        int numeros[] = new int[]{8,2,3,20,5,0,1,9,12,14,13,7,15,10,19,4,18,6,11,16,17};
         //Declaración del array que en este caso sera un Array unidimencional
 
         for(int dato:numeros){
