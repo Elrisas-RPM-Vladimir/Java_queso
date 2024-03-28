@@ -1,8 +1,10 @@
 package ArreglosBidimencionales;
 
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 
-public class EjercicioBi5 {
+public class EjercicioBi6 {
     public static void main(String[] args) {
         int[][] array = new int[6][10];
         llenarArray(array);
@@ -13,6 +15,21 @@ public class EjercicioBi5 {
         System.out.println("Posición del máximo: Fila " + posicionMaximo[0] + ", Columna " + posicionMaximo[1]);
         System.out.println("Posición del mínimo: Fila " + posicionMinimo[0] + ", Columna " + posicionMinimo[1]);
     }
+    public static void llenarArraySinRepetir(int[][] array) {
+        Set<Integer> numerosGenerados = new HashSet<>();
+        Random r = new Random();
+        for (int i = 0; i < array.length; i++) {
+            for (int j = 0; j < array[i].length; j++) {
+                int numeroGenerado;
+                do {
+                    numeroGenerado = r.nextInt(1001);
+                } while (numerosGenerados.contains(numeroGenerado));
+                array[i][j] = numeroGenerado;
+                numerosGenerados.add(numeroGenerado);
+            }
+        }
+    }
+
     public static void llenarArray(int[][] array) {
         Random r = new Random();
         for (int i = 0; i < array.length; i++) {
