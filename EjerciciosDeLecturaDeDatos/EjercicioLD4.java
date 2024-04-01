@@ -6,7 +6,7 @@ public class EjercicioLD4 {
         public static void main(String[] args) {
                 Scanner s = new Scanner(System.in);
         
-        System.out.println("\033[32m Ingresa dos números, por escacios: ");
+        System.out.println("\033[32m Ingresa dos números, por espacios: ");
         double x = s.nextDouble();
         double y = s.nextDouble();
 
