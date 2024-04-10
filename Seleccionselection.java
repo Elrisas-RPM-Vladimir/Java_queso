@@ -14,7 +14,7 @@ public class Seleccionselection {
         for(int Ordenar = 0; Ordenar < numeros.length -1; Ordenar++){ 
             //Creamos el valor ordenar para empezar el comando selection, por el cual creamos el Minimo
             int Minimo = Ordenar; //para empezar a recorre el Array
-            for(int comp = Ordenar+1; comp < numeros.length; comp++){
+            for(int comp = Ordenar + 1; comp < numeros.length; comp++){
                 //el comp(comparar) será quien seleccione los valores menores del array para
                 //seleccionar los números para su respectiva clasificación
                 if(numeros[comp] < numeros[Minimo]){
