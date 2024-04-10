@@ -79,8 +79,8 @@ public class Función1 {
         int exponente = 3;
         System.out.println("Potencia: " + potencia(base, exponente));
 
-        int numDigitos = 12345;
-        System.out.println("Número de dígitos: " + digitos(numDigitos));
+        int numdigitos = 12345;
+        System.out.println("Número de dígitos: " + digitos(numdigitos));
 
         int volteado = 54321;
         System.out.println("Número volteado: " + voltea(volteado));
@@ -89,25 +89,25 @@ public class Función1 {
         int posicion = 2;
         System.out.println("Dígito en posición " + posicion + ": " + digitoN(digito, posicion));
 
-        int numPosicion = 12345;
+        int numposicion = 12345;
         int dig = 3;
-        System.out.println("Posición del dígito " + dig + ": " + posicionDeDigito(numPosicion, dig));
+        System.out.println("Posición del dígito " + dig + ": " + posicionDeDigito(numposicion, dig));
 
-        int quitaDetras = 123456;
+        int quitadetras = 123456;
         int n = 2;
-        System.out.println("Quita por detrás: " + quitaPorDetras(quitaDetras, n));
+        System.out.println("Quita por detrás: " + quitaPorDetras(quitadetras, n));
 
-        int quitaDelante = 123456;
+        int quitadelante = 123456;
         int m = 2;
-        System.out.println("Quita por delante: " + quitaPorDelante(quitaDelante, m));
+        System.out.println("Quita por delante: " + quitaPorDelante(quitadelante, m));
 
-        int pegaDetras = 123;
-        int digitoDetras = 4;
-        System.out.println("Pega por detrás: " + pegaPorDetras(pegaDetras, digitoDetras));
+        int pegadetras = 123;
+        int digitodetras = 4;
+        System.out.println("Pega por detrás: " + pegaPorDetras(pegadetras, digitodetras));
 
-        int pegaDelante = 456;
-        int digitoDelante = 1;
-        System.out.println("Pega por delante: " + pegaPorDelante(pegaDelante, digitoDelante));
+        int pegadelante = 456;
+        int digitodelante = 1;
+        System.out.println("Pega por delante: " + pegaPorDelante(pegadelante, digitodelante));
 
         int trozo = 123456;
         int ini = 1;
