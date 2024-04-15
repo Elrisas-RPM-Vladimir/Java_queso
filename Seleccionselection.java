@@ -36,5 +36,4 @@ public class Seleccionselection {
         } //Después de ordenar el array, este bloque de código imprime los datos nuevamente,
         //pero esta vez después de que han sido ordenados. Para evitar conflictos de código
     }
-    
 }

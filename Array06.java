@@ -1,11 +1,9 @@
 import java.util.Arrays;
-import java.util.Random;
 public class Array06 {
     /*Realizar un programa que sea capaz de ordenar un array de una 
     dimención, que contenga 20 numeros enteros aleatorios entre 0 y 200 
     */
     public static void main(String[] args) {
-        Random r = new Random();
         int[] numeros = new int[20];
         //llenamos el arreglo
         {System.out.println("20 números aleatorios entre 0 y 200");
